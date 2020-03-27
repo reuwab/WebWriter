@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Byoo WebWriter.exe" version="1.0.0.0" publicKeyToken="fb82f33bdf175abb" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Mix.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Byoo WebWriter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Byoo WebWriter.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Byoo WebWriter.exe" size="260072">
+      <assemblyIdentity name="Byoo WebWriter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tECodpI98Fq2/MQk9SuIv5jaqb3M6Z3LpF8x1NV4B7g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Syncfusion.Grid.Base.dll" size="16384">
+      <assemblyIdentity name="Syncfusion.Grid.Base" version="17.3460.0.14" publicKeyToken="3D67ED1F87D44C89" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>H4UA6/X41CwZb7OZURCmpIyQjjZ1OJ+0MVoRESeaHNI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Syncfusion.Grid.Windows.dll" size="2514944">
+      <assemblyIdentity name="Syncfusion.Grid.Windows" version="17.3460.0.14" publicKeyToken="3D67ED1F87D44C89" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>cD929qJK/OIO8LxgmKffhelGMViXH0xLZO6oPx7OVP4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Syncfusion.Grid.Windows.XmlSerializers.dll" size="375296">
+      <assemblyIdentity name="Syncfusion.Grid.Windows.XmlSerializers" version="17.3460.0.14" publicKeyToken="3D67ED1F87D44C89" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/6k6YHCWPNqQfoALUmsXaY7QL7wajx3LKYfHNIiJALE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Syncfusion.HTMLUI.Base.dll" size="192512">
+      <assemblyIdentity name="Syncfusion.HTMLUI.Base" version="17.3460.0.14" publicKeyToken="3D67ED1F87D44C89" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uufVnI49Y3DJjH3zOSr9sgVvVI0hnAmuDB7TYJds4AY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Syncfusion.HTMLUI.Windows.dll" size="401408">
+      <assemblyIdentity name="Syncfusion.HTMLUI.Windows" version="17.3460.0.14" publicKeyToken="3D67ED1F87D44C89" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nisAKPIDcf+dytU0m7+HT+QcdRhxjk7LW5rPe/eP0AM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Syncfusion.MIME.Base.dll" size="81920">
+      <assemblyIdentity name="Syncfusion.MIME.Base" version="17.3460.0.14" publicKeyToken="3D67ED1F87D44C89" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kPJY83CK6RxhiLPon6OETIhRr0JQZ2EqydvbRtIwMdY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Syncfusion.Scripting.Base.dll" size="53248">
+      <assemblyIdentity name="Syncfusion.Scripting.Base" version="17.3460.0.14" publicKeyToken="3D67ED1F87D44C89" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ei3pk0lssgBgPM+vgHt9qkAxyGcgAJuebKbDyJvp/PY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Syncfusion.Shared.Base.dll" size="4861952">
+      <assemblyIdentity name="Syncfusion.Shared.Base" version="17.3460.0.14" publicKeyToken="3D67ED1F87D44C89" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>41fJk20n7N9tVJ+FTvq6S+XadT/lE7Ml3xX6YLEBwGE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Syncfusion.Shared.Windows.dll" size="25600">
+      <assemblyIdentity name="Syncfusion.Shared.Windows" version="17.3460.0.14" publicKeyToken="3D67ED1F87D44C89" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Y8lTZDvc7M5cdbPixk9nCuiRXMmEOH2l+zav/sV0yhY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Syncfusion.SpellChecker.Base.dll" size="23552">
+      <assemblyIdentity name="Syncfusion.SpellChecker.Base" version="17.3460.0.14" publicKeyToken="3D67ED1F87D44C89" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>unNm1MtSrKK99Z5mjtPekOmtPjKJymMkC3VBQDX+djk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Syncfusion.Tools.Base.dll" size="16384">
+      <assemblyIdentity name="Syncfusion.Tools.Base" version="17.3460.0.14" publicKeyToken="3D67ED1F87D44C89" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>66cfb4ec5ks2+/yqMWxZQ15TdHRn71B2tbvctnTjtwo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Syncfusion.Tools.Windows.dll" size="14295040">
+      <assemblyIdentity name="Syncfusion.Tools.Windows" version="17.3460.0.14" publicKeyToken="3D67ED1F87D44C89" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>R9e3gaNtd5Q/yakygVb0AthPOInUczXdqy+Nefvtfxk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Byoo WebWriter.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c922zfRb5ORzqEo8SDjt8Mx8lDMhGTWhqKcK/oileDM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Mix.ico" size="102193">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kyyi1XPR73lySfd4ftu7/WQTYcxEh6t/yVxSKZConRE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="webwriter_8Cq_icon.ico" size="83646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wavQ0jIP+goOxXeAmR+Rqf1D7Iu6e9Nq3BKQe5l8buo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HP-PAVILION-590\Reuben" issuerKeyHash="af4cf128e907832c416eba2b25f2b5d8c32795ed" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ccEQSa8NuE6pCkXfe0Pd6YyySf7XX/Re3M7Tv1XH8GI=</DigestValue></Reference></SignedInfo><SignatureValue>AEYzfxEHKZ3BFbouoY17PJJ56eAJv84NXAnET5uiko/utFsyLFu1m8edXuilpV3vxycs1aG6uYXNj0J4WqbK4w94IiMdQeSjehI6GAj0pjbiMVd8Fdwd4NToMMr+bami8tc+vl6VlqxelYMsgyx7qaM8MIy8WYr42087kRzd4uE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1yR4uWftns00vDjJguki+5pZl8UJYHADOyn+mgDo/IwhNtz5DWTTQHjXvvH3k/ToBfhXI+LLbn+nwMlxi4cx3YdU4+haNu4EfbDmhOYpgX1eNpiqelFhsbByd0uErMzhlFBSWIJDKCGRrOuc7+0XKO8hSX725Tw83RwHbhymmK0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="62f0c755bfd3cedc5ef45fd7fe49b28ce9dd437bdf450aa94eb80daf4910c171" Description="" Url=""><as:assemblyIdentity name="Byoo WebWriter.exe" version="1.0.0.0" publicKeyToken="fb82f33bdf175abb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HP-PAVILION-590\Reuben</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HwzlAoGuTIE6Z6C2Nlpw/WyrLJKVwnKEmgQ9t4Jcnbs=</DigestValue></Reference></SignedInfo><SignatureValue>AjCrIH6pJr7yD3/R/rfPmWoRQBVfg4fGI0Kq68jRkpCTNgRlCum0Q9Slvv1ORzUjG+ZWe503BCyjfzPnJkmuVrcVZgXT9ws2GG7ev+8sg4NjDVNLGZF8NChPN+t4+x32+XfiudavIE8fS7h0g1Zunrr5iEdf8ntfvxz4s0oOyE4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1yR4uWftns00vDjJguki+5pZl8UJYHADOyn+mgDo/IwhNtz5DWTTQHjXvvH3k/ToBfhXI+LLbn+nwMlxi4cx3YdU4+haNu4EfbDmhOYpgX1eNpiqelFhsbByd0uErMzhlFBSWIJDKCGRrOuc7+0XKO8hSX725Tw83RwHbhymmK0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQOOrCt5X2la1BLvBf90JvITANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwASABQAC0AUABBAFYASQBMAEkATwBOAC0ANQA5ADAAXABSAGUAdQBiAGUAbjAeFw0yMDAzMjcxNTI0NTRaFw0yMTAzMjcyMTI0NTRaMDcxNTAzBgNVBAMeLABIAFAALQBQAEEAVgBJAEwASQBPAE4ALQA1ADkAMABcAFIAZQB1AGIAZQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDXJHi5Z+2ezTS8OMmC6SL7mlmXxQlgcAM7Kf6aAOj8jCE23PkNZNNAeNe+8feT9OgF+Fcj4stuf6fAyXGLhzHdh1Tj6Fo27gR9sOaE5imBfV42mKp6UWGxsHJ3S4SszOGUUFJYgkMoIZGs65zv7Rco7yFJfvblPDzdHAduHKaYrQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFI0Zz/mU+d/UgF1Jy/+wUviIDkdr3mezFYiNLn5RL5KexP7ZiZS9EJxDRyN5PL6GdAOaxOd+I1XOkYzkOuudvOg/z2wKMpMjNrQVy6T/h97LjKKhNGlOKgY9XsuomiWc6pccpL7KsxYZefmaGZXsm0BfgthWFJzo7uw6Kyxbyqv</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
